@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { ChakraProvider} from '@chakra-ui/react';
+import Data from './Data';
+import AlignmentExample from './Nav';
+import FirstSection from './Section1';
+import SecondSection from './Section2';
+import ThirdSection from './Section3';
+import Footer from './Footer';
 function App() {
   return (
+    <ChakraProvider>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <AlignmentExample/>
       </header>
+      <div className='justify-content-center' >
+      <FirstSection/>
+      <SecondSection Data = {Data}/>
+      <ThirdSection/>
+      <Footer></Footer>
+      </div>
     </div>
+    </ChakraProvider>
   );
 }
 
