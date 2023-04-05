@@ -1,12 +1,14 @@
 
 
-
+/*@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&family=Titillium+Web&display=swap');
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-body{background-color: #282c34;}
+body{background-color: #282c34;
+  font-family: 'Titillium Web', sans-serif;}
 .App-header{
   background-color: #282c34 ;
 }

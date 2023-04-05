@@ -7,9 +7,11 @@ import FirstSection from './Section1';
 import SecondSection from './Section2';
 import ThirdSection from './Section3';
 import Footer from './Footer';
+
 function App() {
   return (
     <ChakraProvider>
+      
     <div className="App">
       <header className="App-header">
       <AlignmentExample/>

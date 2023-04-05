@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 function SecondSection (props){
     const projects = props.Data.map((project)=>{
         return(
+           
             <div key={project.id} className="col-12 col-md-5 m-2">          
             <Card key={project.id}>
                 <Card.Img variant="top" src={project.img}/>
@@ -28,6 +29,9 @@ return(
     <div id="second-section">
         <div className="container">
             <div className="row  justify-content-center "> 
+           <div className="text-light fs-3 m-4">
+           <h2>Sample of work & React projects</h2>
+           </div>
             {projects}
             </div>
         </div>

@@ -18,10 +18,10 @@ const Data = [
    URL: "https://rananassar2021.github.io/react-template/"
 },
 {
-   cardTitle: "Mangata & Gallo",
-   description: "This website is for jewelry with the latest updates of Mangato & Gallo website where the latest designs of the brand is updated . ",
+   cardTitle: "React website template",
+   description: "This website is a template cool webiste i made it usinig React that can be reused for any other purpose too ",
    img: "https://RanaNassar2021.github.io/Rana-portfolio/images/project4.PNG",
-   URL: "https://rananassar2021.github.io/mangata-gallo/"
+   URL: "https://rananassar2021.github.io/react-template/"
 }
 
 ]
