@@ -3,6 +3,7 @@ import './App.css';
 import { ChakraProvider} from '@chakra-ui/react';
 import Data from './Data';
 import AlignmentExample from './Nav';
+import Courses from './Courses';
 import FirstSection from './Section1';
 import SecondSection from './Section2';
 import ThirdSection from './Section3';
@@ -17,7 +18,12 @@ function App() {
       <AlignmentExample/>
       </header>
       <div className='justify-content-center' >
+       
       <FirstSection/>
+      
+      <Courses/>
+      
+      
       <SecondSection Data = {Data}/>
       <ThirdSection/>
       <Footer></Footer>

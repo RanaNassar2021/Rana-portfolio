@@ -12,15 +12,15 @@ const Data = [
    URL: "https://rananassar2021.github.io/Able/"
 },
 {
-   cardTitle: "React website template",
-   description: "This website is a template cool webiste i made it usinig React that can be reused for any other purpose too",
+   cardTitle: "React little Lemon Restaurant ",
+   description: "This is React webiste for Restaurant i used custome Hooks, maping and reservation form validation rendering comments of customers reviews for each dish",
    img: "https://RanaNassar2021.github.io/Rana-portfolio/images/project3.PNG",
-   URL: "https://rananassar2021.github.io/react-template/"
+   URL: "https://rananassar2021.github.io/little-lemon-react/"
 },
 {
    cardTitle: "React website template",
-   description: "This website is a template cool webiste i made it usinig React that can be reused for any other purpose too ",
-   img: "https://RanaNassar2021.github.io/Rana-portfolio/images/project4.PNG",
+   description: "This website is a template of a very cool webiste i made it usinig React and it can be reused for any other purpose too.. ",
+   img: "https://RanaNassar2021.github.io/Rana-portfolio/images/project4.png",
    URL: "https://rananassar2021.github.io/react-template/"
 }
 

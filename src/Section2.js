@@ -30,7 +30,7 @@ return(
         <div className="container">
             <div className="row  justify-content-center "> 
            <div className="text-light fs-3 m-4">
-           <h2>Sample of work & React projects</h2>
+           <h2 id="sample">Sample of work & React projects</h2>
            </div>
             {projects}
             </div>

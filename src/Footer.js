@@ -14,7 +14,13 @@ function Footer() {
           <Nav.Link  eventKey="link-2" href='https://www.linkedin.com/in/rana-nassar-28a601192' target="_blank" ><i class="fa-brands fa-linkedin fa-2x"></i></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link  eventKey="link-3"><i class="fa-brands fa-staylinked fa-2x"></i></Nav.Link>
+          <Nav.Link  eventKey="link-3" href='#second-section'><i class="fa-brands fa-staylinked fa-2x"></i></Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link  eventKey="link-4" href="mailto: rana.nassar9925@gmail.com"><i class="fa-brands fa-google fa-2x"></i></Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link  eventKey="link-5" href=' https://wa.me/201096001563' target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></Nav.Link>
         </Nav.Item>
       </Nav>
     </>
