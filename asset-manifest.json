@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Rana-portfolio/static/css/main.73307ab2.css",
-    "main.js": "/Rana-portfolio/static/js/main.ade9e3a4.js",
+    "main.js": "/Rana-portfolio/static/js/main.bd0441d0.js",
     "static/js/787.0ff3d980.chunk.js": "/Rana-portfolio/static/js/787.0ff3d980.chunk.js",
     "static/media/me.jpg": "/Rana-portfolio/static/media/me.95976a70a124125da794.jpg",
     "index.html": "/Rana-portfolio/index.html",
     "main.73307ab2.css.map": "/Rana-portfolio/static/css/main.73307ab2.css.map",
-    "main.ade9e3a4.js.map": "/Rana-portfolio/static/js/main.ade9e3a4.js.map",
+    "main.bd0441d0.js.map": "/Rana-portfolio/static/js/main.bd0441d0.js.map",
     "787.0ff3d980.chunk.js.map": "/Rana-portfolio/static/js/787.0ff3d980.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73307ab2.css",
-    "static/js/main.ade9e3a4.js"
+    "static/js/main.bd0441d0.js"
   ]
 }
