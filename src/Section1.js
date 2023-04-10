@@ -28,8 +28,10 @@ return(
          <div className='d-flex align-items-center justify-content-center mt-2 '>
             <figure>
               <em>
+             <i class="fa-sharp fa-solid fa-quote-left m-2"></i>
+             
    Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. 
-            
+    <i class="fa-sharp fa-solid fa-quote-right m-2"></i>
    </em>
                   <figcaption className=" blockquote-footer text-end mt-2 text-light ">
                   Martin Golding 
