@@ -3,7 +3,7 @@ const Data = [
    cardTitle: "Mira Italian Cuisine",
    description: " this is one of my favourite projects website, this website is for an italian cuisine Restaurant where you can check the menu, order online and make reservation too.",
    img: "https://RanaNassar2021.github.io/Rana-portfolio/images/project1.PNG",
-   URL: "https://rananassar2021.github.io/mira-italian-cuisine/index.html"
+   URL: "https://mira-cuisine-5929.vercel.app/"
 },
 {
    cardTitle: "Able Foundation",
