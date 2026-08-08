@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Rana-portfolio/static/css/main.8ffe2d94.css",
-    "main.js": "/Rana-portfolio/static/js/main.ea90d6e4.js",
-    "static/js/453.208a3df6.chunk.js": "/Rana-portfolio/static/js/453.208a3df6.chunk.js",
+    "main.css": "/Rana-portfolio/static/css/main.5c1d7015.css",
+    "main.js": "/Rana-portfolio/static/js/main.bdf3eae6.js",
+    "static/js/787.0ff3d980.chunk.js": "/Rana-portfolio/static/js/787.0ff3d980.chunk.js",
     "static/media/me.jpg": "/Rana-portfolio/static/media/me.95976a70a124125da794.jpg",
     "index.html": "/Rana-portfolio/index.html",
-    "main.8ffe2d94.css.map": "/Rana-portfolio/static/css/main.8ffe2d94.css.map",
-    "main.ea90d6e4.js.map": "/Rana-portfolio/static/js/main.ea90d6e4.js.map",
-    "453.208a3df6.chunk.js.map": "/Rana-portfolio/static/js/453.208a3df6.chunk.js.map"
+    "main.5c1d7015.css.map": "/Rana-portfolio/static/css/main.5c1d7015.css.map",
+    "main.bdf3eae6.js.map": "/Rana-portfolio/static/js/main.bdf3eae6.js.map",
+    "787.0ff3d980.chunk.js.map": "/Rana-portfolio/static/js/787.0ff3d980.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ffe2d94.css",
-    "static/js/main.ea90d6e4.js"
+    "static/css/main.5c1d7015.css",
+    "static/js/main.bdf3eae6.js"
   ]
 }
