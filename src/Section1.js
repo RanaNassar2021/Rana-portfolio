@@ -1,5 +1,46 @@
 import './App.css';
 import me from './me.jpg'
+import { Wrap, WrapItem, Tooltip, Text } from '@chakra-ui/react';
+import { motion } from 'framer-motion';
+import { SiReact, SiNextdotjs, SiTailwindcss, SiMui, SiAntdesign, SiRedux, SiReactquery } from 'react-icons/si';
+import { FaBootstrap } from 'react-icons/fa';
+
+const MotionWrapItem = motion(WrapItem);
+
+const stack = [
+  { name: 'React.js', icon: SiReact, color: '#61DAFB' },
+  { name: 'Next.js', icon: SiNextdotjs, color: '#FFFFFF' },
+  { name: 'Redux', icon: SiRedux, color: '#764ABC' },
+  { name: 'TanStack Query', icon: SiReactquery, color: '#FF4154' },
+  { name: 'Bootstrap', icon: FaBootstrap, color: '#7952B3' },
+  { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#38BDF8' },
+  { name: 'Material UI', icon: SiMui, color: '#007FFF' },
+  { name: 'Ant Design', icon: SiAntdesign, color: '#0170FE' },
+];
+
+function TechStack() {
+  return (
+    <div className='mt-4'>
+      
+      <Wrap justify='center' spacing='4' className=' mt-2'>
+        {stack.map(({ name, icon: Icon, color }) => (
+          <Tooltip key={name} label={name} hasArrow placement='top'>
+            <MotionWrapItem
+              className='tech-badge'
+              style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}
+              whileHover={{ scale: 1.15, y: -4 }}
+              transition={{ type: 'spring', stiffness: 300 }}
+            >
+              <Icon size='2em' color={color} />
+              <Text className='tech-label'>{name}</Text>
+            </MotionWrapItem>
+          </Tooltip>
+        ))}
+      </Wrap>
+    </div>
+  );
+}
+
 function FirstSection(){
 return(
   <>
@@ -38,6 +79,7 @@ return(
                    </figcaption>
                    </figure>
                    </div>
+                   <TechStack/>
                   </div>    
                  
                   </>

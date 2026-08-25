@@ -6,10 +6,10 @@ const Data = [
    URL: "https://oil-industry-inky.vercel.app/"
 },
 {
-   cardTitle: "React little Lemon Restaurant ",
-   description: "This is React webiste for Restaurant i used custome Hooks, maping and reservation form validation rendering comments of customers reviews for each dish",
-   img: "https://RanaNassar2021.github.io/Rana-portfolio/images/project3.PNG",
-   URL: "https://rananassar2021.github.io/little-lemon-react/"
+   cardTitle: "Real Estate Website",
+   description: "This is a real estate website where you can browse properties, view details, and contact agents.  i used Next.js , typescript and tailwind...",
+img: `${process.env.PUBLIC_URL}/images/real-estate.png`,
+   URL: "https://real-estates-zeta.vercel.app/"
 },
 {
    cardTitle: "Bundle Builder",

@@ -8,6 +8,7 @@ import FirstSection from './Section1';
 import SecondSection from './Section2';
 import ThirdSection from './Section3';
 import Footer from './Footer';
+import Experience from './Experience';
 
 function App() {
   return (
@@ -19,11 +20,9 @@ function App() {
       </header>
       <div className='justify-content-center' >
        
-      <FirstSection/>
-      
+      <FirstSection/>    
       <Courses/>
-      
-      
+      <Experience/>
       <SecondSection Data = {Data}/>
       <ThirdSection/>
       <Footer></Footer>
