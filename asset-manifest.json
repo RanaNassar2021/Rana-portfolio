@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Rana-portfolio/static/css/main.5c1d7015.css",
-    "main.js": "/Rana-portfolio/static/js/main.c2201aab.js",
+    "main.css": "/Rana-portfolio/static/css/main.9bfbd71d.css",
+    "main.js": "/Rana-portfolio/static/js/main.147ac5c6.js",
     "static/js/787.0ff3d980.chunk.js": "/Rana-portfolio/static/js/787.0ff3d980.chunk.js",
     "static/media/me.jpg": "/Rana-portfolio/static/media/me.95976a70a124125da794.jpg",
     "index.html": "/Rana-portfolio/index.html",
-    "main.5c1d7015.css.map": "/Rana-portfolio/static/css/main.5c1d7015.css.map",
-    "main.c2201aab.js.map": "/Rana-portfolio/static/js/main.c2201aab.js.map",
+    "main.9bfbd71d.css.map": "/Rana-portfolio/static/css/main.9bfbd71d.css.map",
+    "main.147ac5c6.js.map": "/Rana-portfolio/static/js/main.147ac5c6.js.map",
     "787.0ff3d980.chunk.js.map": "/Rana-portfolio/static/js/787.0ff3d980.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c1d7015.css",
-    "static/js/main.c2201aab.js"
+    "static/css/main.9bfbd71d.css",
+    "static/js/main.147ac5c6.js"
   ]
 }
