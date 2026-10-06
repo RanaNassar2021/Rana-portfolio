@@ -5,10 +5,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 body {
   background-color: #282c34;
   font-family: "Titillium Web", sans-serif;
 }
+
 .App-header {
   background-color: #282c34;
 }
@@ -20,6 +22,11 @@ body {
 
 #title {
   font-size: 30px;
+}
+
+#me {
+  width: clamp(180px, 20vw, 260px);
+  height: auto;
 }
 
 @media screen and (max-width: 540px) {
@@ -79,6 +86,7 @@ body {
   color: #2a4365;
   padding: 1rem 0;
 }
+
 #experience-section {
   background-color: #2a4365;
   color: white;
@@ -258,4 +266,203 @@ select.input-error {
 
 .error {
   color: #fc8181;
+}
+
+@media (max-width: 767.98px) {
+  .App-header {
+    padding: 0.35rem 0.5rem;
+  }
+
+  .App-header .nav {
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 0.15rem;
+  }
+
+  .App-header .nav-link,
+  footer .nav-link {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  #first-section {
+    padding: 1.5rem 1rem !important;
+  }
+
+  #me {
+    width: clamp(120px, 38vw, 170px) !important;
+    height: auto !important;
+  }
+
+  #first-section h5 {
+    margin-bottom: 0;
+  }
+
+  #title {
+    max-width: 22ch;
+    margin: 0 auto;
+    padding: 0 !important;
+    font-size: clamp(1.65rem, 7vw, 2.25rem);
+    line-height: 1.15;
+    text-align: center;
+    text-wrap: balance;
+  }
+
+  #first-section>.text-center {
+    max-width: 42rem;
+    margin: 0 auto;
+    line-height: 1.65;
+  }
+
+  #first-section figure {
+    max-width: 38rem;
+    margin: 0.75rem auto 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  #stack-title,
+  #experience-title {
+    letter-spacing: 0;
+  }
+
+  .tech-badge {
+    width: 82px;
+    height: 78px;
+    gap: 4px;
+    border-radius: 10px;
+  }
+
+  .tech-label {
+    font-size: 0.65rem;
+  }
+
+  #second-section {
+    padding: 0 0 1.5rem;
+  }
+
+  #second-section .container {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
+  #second-section .row>.col-12 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem auto !important;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #second-section .card {
+    height: 100%;
+  }
+
+  #second-section .card-img-top {
+    max-height: 240px;
+    object-fit: cover;
+  }
+
+  #experience-section {
+    padding-bottom: 1.5rem;
+  }
+
+  #experience-section>.text-center {
+    padding: 1.5rem 1rem 0.75rem !important;
+    font-size: 1.25rem !important;
+  }
+
+  #experience-section h2,
+  #second-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+
+  #experience-section .row.justify-content-center {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 1rem 1.25rem !important;
+  }
+
+  .video-card {
+    width: 100%;
+    margin: 0 0 0.75rem !important;
+    padding: 0.65rem;
+  }
+
+  .video-card-player {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  #experience-section .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .experience-columns {
+    row-gap: 1rem;
+  }
+
+  .experience-header {
+    margin-bottom: 0.5rem;
+  }
+
+  .freelance-points {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .freelance-points li {
+    margin-bottom: 0.6rem;
+  }
+
+  .experience-item {
+    gap: 0.65rem;
+    padding: 0.75rem 0.6rem;
+  }
+
+  #third-section .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  #third-section .row {
+    padding: 1.5rem 0 !important;
+  }
+
+  #third-section textarea {
+    min-height: 170px;
+  }
+
+  #contactme-section {
+    font-size: 1.8rem;
+  }
+
+  footer .nav {
+    flex-wrap: wrap;
+    padding: 0.25rem;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .App-header .nav-link,
+  footer .nav-link {
+    min-width: 40px;
+    padding: 0.4rem;
+  }
+
+  .tech-badge {
+    width: 72px;
+    height: 72px;
+  }
+
+  #experience-meta {
+    font-size: 0.85rem;
+  }
 }

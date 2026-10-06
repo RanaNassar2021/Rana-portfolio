@@ -4,11 +4,26 @@ body {
 
 }
 
-#heading{
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+#heading {
   font-family: 'Playfair Display', serif;
 }
 
-#sample{
+#sample {
   font-family: 'Playfair Display', serif;
 }
-
